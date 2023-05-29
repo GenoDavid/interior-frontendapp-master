@@ -34,7 +34,6 @@ export const AdminDasboard = () => {
                 await axios.delete(`${link}/data/${id}`)
                 getUsers();
                 toast.success('Data deleted successfully!')
-
             }
 
         } catch (error) {
@@ -61,8 +60,6 @@ export const AdminDasboard = () => {
                                 <th>Number</th>
                                 <th>Message</th>
                                 <th>action</th>
-
-
                             </tr>
                         </thead>
                         <tbody>
