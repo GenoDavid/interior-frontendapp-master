@@ -84,7 +84,7 @@ export const AdminDasboard = () => {
                                             </td>
                                             <td onClick={() => handelDelet(val._id)}>
                                                 <p className={classes.delbtn}>
-                                                    Del
+                                                    Delete
                                                 </p>
                                             </td>
 
